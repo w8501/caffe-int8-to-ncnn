@@ -15,13 +15,13 @@ MXNet quantization implement:
 
 [Quantization module for generating quantized (INT8) models from FP32 models](https://github.com/apache/incubator-mxnet/blob/master/python/mxnet/contrib/quantization.py)
 
-An introduction to the principles of a Chinese blog written by my friend([bruce.zhang](https://github.com/bigbigzxl)):
+An introduction to the principles of a Chinese blog written by [bruce.zhang](https://github.com/bigbigzxl):
 
 [The implement of Int8 quantize base on TensorRT](https://zhuanlan.zhihu.com/zhangxiaolongOptimization)
 
 ## HowTo
 
-The purpose of this tool(caffe-int8-to-ncnn.py)  is to save the caffemodel as an int8 ncnn model and deploy it to ncnn?
+The purpose of this tool(caffe-int8-to-ncnn.py)  is to save the caffemodel as an int8 ncnn model and deploy it to ncnn.
 
 This format is already supported in the [ncnn](https://github.com/Tencent/ncnn) latest version.
 
