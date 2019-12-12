@@ -29,8 +29,9 @@ This format is already supported in the [ncnn](https://github.com/Tencent/ncnn) 
 python caffe-int8-convert-tool-dev-weight.py -h
 usage: caffe-int8-convert-tool-dev-weight.py [-h] [--proto PROTO] [--model MODEL]
                                   [--mean MEAN MEAN MEAN] [--norm NORM]
-                                  [--images IMAGES] [--output OUTPUT]
-                                  [--group GROUP] [--gpu GPU]
+                                  [--images IMAGES] [--output_param OUTPUT_PARAM]
+                                  [--output_bin OUTPUT_BIN] [--group GROUP]
+                                  [--gpu GPU]
 
 find the pretrained caffemodel int8 quantize scale value
 
